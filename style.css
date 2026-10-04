@@ -1,0 +1,119 @@
+/* កំណត់ទូទៅ(Global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kantumruy Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #f4f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* Card Container */
+.login-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333333;
+}
+/* Input Group */
+.input-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.input-group input[type="email"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+/* ឥទ្ធិពលfocusពេលចុចលើinput */
+.input-group input:focus {
+  border-color: #bac312;
+}
+/* box password & button show/hide */
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#togglePassword {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #4a90a2;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px;
+}
+/* Error message */
+.error-message {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+}
+/* Remember Me & Forgot Password */
+.form-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.remember-me {
+  color: #555;
+  cursor: pointer;
+}
+.forgot-password {
+  color: #4a90e2;
+  text-decoration: none;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+/* button submit */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom:15px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.1s ease;
+}
+.submit-btn:hover {
+  background-color: #357abd;
+}
+.submit-btn:active {
+  transform: scale(0.98);
+}
+.signup-text a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signup-text a:hover {
+  text-decoration: underline;
+}
