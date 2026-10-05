@@ -6,7 +6,7 @@
   font-family: "Kantumruy Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  background-color: #36bd90;
+  background-color:#ccc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 /* Card Container */
 .login-container {
-  background-color: #ffffff;
+  background-color:  #36bd90;
   padding: 30px 40px;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
